@@ -1,5 +1,4 @@
-﻿using IL.Terraria.ID;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
@@ -7,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Terraria;
 using Terraria.DataStructures;
+using Terraria.ID;
 using Terraria.ModLoader;
 using SoundID = Terraria.ID.SoundID;
 
@@ -35,6 +35,7 @@ namespace PBT.Items
             Item.value = 10001;
             Item.rare = 11;
             Item.UseSound = SoundID.DD2_MonkStaffGroundImpact;
+            Item.shoot = 932;
             Item.shootSpeed = 3;
             Item.autoReuse = true;
         }
@@ -54,12 +55,12 @@ namespace PBT.Items
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Microsoft.Xna.Framework.Vector2 position, Microsoft.Xna.Framework.Vector2 velocity, int type, int damage, float knockback)
         {
             NPC.NewNPC(new EntitySource_ItemUse(player, source.Item), (int)position.X, (int)position.Y, new Random().Next(-65, 669));
-            return base.Shoot(player, source, position, velocity, type, damage, knockback);
+            return false;
         }
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddCondition(Recipe.Condition.InWaterCandle);
+            recipe.AddIngredient(ItemID.Wood, 1);
             recipe.Register();
         }
     }
