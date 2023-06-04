@@ -10,7 +10,7 @@ using Terraria.DataStructures;
 using Terraria.ModLoader;
 using SoundID = Terraria.ID.SoundID;
 
-namespace FBT.Items
+namespace PBT.Items
 {
     public class grdskl : ModItem
     {

@@ -36,11 +36,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\attic_s1f\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\FBT\\FBT.csproj",
+      "projectUniqueName": "C:\\Users\\attic_s1f\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\PBT\\FBT.csproj",
       "projectName": "FBT",
-      "projectPath": "C:\\Users\\attic_s1f\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\FBT\\FBT.csproj",
+      "projectPath": "C:\\Users\\attic_s1f\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\PBT\\FBT.csproj",
       "packagesPath": "C:\\Users\\attic_s1f\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\attic_s1f\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\FBT\\obj\\",
+      "outputPath": "C:\\Users\\attic_s1f\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\PBT\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\attic_s1f\\AppData\\Roaming\\NuGet\\NuGet.Config",

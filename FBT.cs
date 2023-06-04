@@ -1,6 +1,6 @@
 using Terraria.ModLoader;
 
-namespace FBT
+namespace PBT
 {
 	public class FBT : Mod
 	{
