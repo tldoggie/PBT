@@ -35,7 +35,7 @@ namespace PBT.Items
 		public override void AddRecipes()
 		{
 			Recipe recipe = CreateRecipe();
-			// recipe.AddIngredient(ItemID.PinkGel, 2);
+			recipe.AddIngredient(ItemID.PinkGel, 2);
             recipe.AddIngredient(ItemID.Wood, 15);
             recipe.AddTile(TileID.WorkBenches);
 			recipe.Register();
