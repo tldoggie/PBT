@@ -1,0 +1,3 @@
+displayName = Fish Bone Terraria
+author = Fish Bone
+version = 0.1

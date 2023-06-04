@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "C+4VqydLv7XFzXEOHBGscD0Ae2AneaRjJy5tAioMkysJiWAjKoLg9fjU6/uKorL7WAHl6prNRePuokuLJZNmEA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\attic_s1f\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\FBT\\FBT.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\attic_s1f\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
