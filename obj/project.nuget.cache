@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "onz4McQnlp+ZVMakl8cC3nB7LcHyam4cOELiXVtxFzrAaontGUmJtur7Bk43xWO7Z/Jnc+OkhL4C+GPitvF2WA==",
+  "dgSpecHash": "+R9S+fV/MpSq2OeaK85aQSksTh81Ddebj0flVzUYJn4d7Kv5oDzD1qxIETeMrK/QGv6wRWL8FQSVgmeC/eR3uA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\attic_s1f\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\PBT\\PBT.csproj",
+  "projectFilePath": "C:\\Users\\adam0\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\PBT\\PBT.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\attic_s1f\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+    "C:\\Users\\adam0\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
   ],
   "logs": []
 }

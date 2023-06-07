@@ -15,8 +15,8 @@ namespace PBT.Projectiles
 
 		public override void SetDefaults()
 		{
-			Projectile.width = 20;
-			Projectile.height = 100;
+			Projectile.width = 35;
+			Projectile.height = 10;
 			Projectile.aiStyle = ProjAIStyleID.Boomerang;
 			Projectile.friendly = true;
 			Projectile.DamageType = DamageClass.Ranged;
