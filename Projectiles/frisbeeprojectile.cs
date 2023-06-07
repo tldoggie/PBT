@@ -10,7 +10,7 @@ namespace PBT.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Frisbee Projectile");
+			// DisplayName.SetDefault("Frisbee Projectile");
 		}
 
 		public override void SetDefaults()

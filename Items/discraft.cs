@@ -8,8 +8,8 @@ namespace PBT.Items
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("1993 Ultrastar Discraft Frisbee"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-			Tooltip.SetDefault("USA Ultimate Approved");
+			// DisplayName.SetDefault("1993 Ultrastar Discraft Frisbee"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
+			// Tooltip.SetDefault("USA Ultimate Approved");
 		}
 
 		public override void SetDefaults()

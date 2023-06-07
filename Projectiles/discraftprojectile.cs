@@ -10,7 +10,7 @@ namespace PBT.Projectiles
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Discraft Projectile");
+			// DisplayName.SetDefault("Discraft Projectile");
 		}
 
 		public override void SetDefaults()
@@ -28,6 +28,10 @@ namespace PBT.Projectiles
 					Projectile.Kill();
 					return false;
 				}
+				if (Projectile.ai[0] <= 2f)
+			{
+				return false;
+			}
 				// If the projectile hits the left or right side of the tile, reverse the X velocity
 				if (Math.Abs(Projectile.velocity.X - oldVelocity.X) > float.Epsilon)
 				{
@@ -56,13 +60,13 @@ namespace PBT.Projectiles
 			}
 			base.AI();
         }
-        public override void OnHitPlayer(Player target, int damage, bool crit)
+        public override void OnHitPlayer(Player target, Player.HurtInfo info)
         {
 			if (target == Main.player[Projectile.owner])
             {
 				Projectile.Kill();
             }
-            else base.OnHitPlayer(target, damage, crit);
+            else base.OnHitPlayer(target, info);
         }
     }
 }

@@ -1,0 +1,58 @@
+Mods: {
+	PBT: {
+		Buffs: {
+			HeyBuff: {
+				DisplayName: NUH UH
+				Description: Mods.PBT.BuffDescription.HeyBuff
+			}
+		}
+
+		Items: {
+			AshCore: {
+				DisplayName: Ash Core
+				Tooltip: Pure essence of Ash
+			}
+
+			blank: {
+				DisplayName: blank
+				Tooltip: This is a advanced modded sword.
+			}
+
+			FlamingCross: {
+				DisplayName: Ash's Flaming Cross
+				Tooltip: Don't ask him what he was using it for
+			}
+
+			frisbee: {
+				DisplayName: Wooden Frisbee
+				Tooltip: lock in
+			}
+
+			grdskl: {
+				DisplayName: Hekllo Wirkd!
+				Tooltip: This is a advanced modded sword.
+			}
+
+			Hey: {
+				DisplayName: Hey!
+				Tooltip: Jumpscare your enemies
+			}
+
+			WoodenCross: {
+				DisplayName: Ash's Wooden Cross
+				Tooltip: The rusty nails add an extra punch
+			}
+
+			discraft: {
+				DisplayName: discraft
+				Tooltip: ""
+			}
+		}
+
+		Projectiles: {
+			frisbeeprojectile.DisplayName: Frisbee Projectile
+			HeyProjectile.DisplayName: Concentrated Ash
+			discraftprojectile.DisplayName: discraftprojectile
+		}
+	}
+}

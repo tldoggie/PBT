@@ -9,8 +9,8 @@ namespace PBT.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Ash's Flaming Cross"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-            Tooltip.SetDefault("Don't ask him what he was using it for");
+            // DisplayName.SetDefault("Ash's Flaming Cross"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
+            // Tooltip.SetDefault("Don't ask him what he was using it for");
         }
 
         public override void SetDefaults()
@@ -36,10 +36,10 @@ namespace PBT.Items
             Lighting.AddLight(position, 1f, 1f, 1f);
         }
 
-        public override void OnHitNPC(Player player, NPC target, int damage, float knockBack, bool crit)
+        public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone)
         {
             target.AddBuff(BuffID.OnFire, 360);
-            base.OnHitNPC(player, target, damage, knockBack, crit);
+            base.OnHitNPC(player, target, hit, damageDone);
         }
 
         public override void AddRecipes()

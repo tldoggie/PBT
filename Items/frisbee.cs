@@ -8,8 +8,8 @@ namespace PBT.Items
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Wooden Frisbee"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-			Tooltip.SetDefault("lock in");
+			// DisplayName.SetDefault("Wooden Frisbee"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
+			// Tooltip.SetDefault("lock in");
 		}
 
 		public override void SetDefaults()

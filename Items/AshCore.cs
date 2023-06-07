@@ -13,8 +13,8 @@ namespace PBT.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Ash Core");
-            Tooltip.SetDefault("Pure essence of Ash");
+            // DisplayName.SetDefault("Ash Core");
+            // Tooltip.SetDefault("Pure essence of Ash");
         }
 
         public override void SetDefaults()

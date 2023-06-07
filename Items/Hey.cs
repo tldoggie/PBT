@@ -18,8 +18,8 @@ namespace PBT.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Hey!");
-            Tooltip.SetDefault("Jumpscare your enemies");
+            // DisplayName.SetDefault("Hey!");
+            // Tooltip.SetDefault("Jumpscare your enemies");
         }
         public override void SetDefaults()
         {

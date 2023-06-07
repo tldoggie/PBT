@@ -14,7 +14,7 @@ namespace PBT.Projectiles
     {
         public override void SetStaticDefaults() 
         {
-            DisplayName.SetDefault("Concentrated Ash");    
+            // DisplayName.SetDefault("Concentrated Ash");    
         }
 
         public override void SetDefaults()
@@ -31,7 +31,7 @@ namespace PBT.Projectiles
             Projectile.timeLeft = 600;
         }
 
-        public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)
+        public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
             //base.OnHitNPC(target, damage, knockback, crit);
             target.AddBuff(BuffID.Ichor, 420);
