@@ -16,8 +16,9 @@ namespace PBT.Items
 		{
 			Item.damage = 80;
 			Item.DamageType = DamageClass.Ranged;
-			Item.width = 10;
-			Item.height = 10;
+			Item.width = 1;
+			Item.height = 1;
+			Item.scale = 0.75f;
 			Item.useTime = 12;
 			Item.useAnimation = 12;
 			Item.useStyle = 1;

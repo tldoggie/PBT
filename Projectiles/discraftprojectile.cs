@@ -15,8 +15,8 @@ namespace PBT.Projectiles
 
 		public override void SetDefaults()
 		{
-			Projectile.width = 20;
-			Projectile.height = 100;
+			Projectile.width = 40;
+			Projectile.height = 8;
 			Projectile.friendly = true;
 			Projectile.DamageType = DamageClass.Ranged;
 			Projectile.maxPenetrate = 5;
@@ -28,10 +28,11 @@ namespace PBT.Projectiles
 					Projectile.Kill();
 					return false;
 				}
-				if (Projectile.ai[0] <= 2f)
-			{
-				return false;
-			}
+				/*if (Projectile.ai[0] <= 2.5f)
+				{
+					Projectile.Kill();
+					return false;
+				}*/
 				// If the projectile hits the left or right side of the tile, reverse the X velocity
 				if (Math.Abs(Projectile.velocity.X - oldVelocity.X) > float.Epsilon)
 				{
@@ -57,6 +58,7 @@ namespace PBT.Projectiles
 			{
 				Projectile.netUpdate = true;
 				Projectile.velocity = Projectile.DirectionTo(Main.player[Projectile.owner].Center) * 18f;
+				if (Projectile.Distance(Main.player[Projectile.owner].Center) < 8f) Projectile.Kill();
 			}
 			base.AI();
         }
