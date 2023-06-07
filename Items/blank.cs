@@ -21,7 +21,7 @@ namespace PBT.Items
 			Item.useTime = 6;
 			Item.useAnimation = 6;
 			Item.useStyle = 2;
-			Item.knockBack = 30;
+			Item.knockBack = 0;
 			Item.value = 10000;
 			Item.rare = 7;
 			Item.UseSound = SoundID.DD2_GoblinScream;

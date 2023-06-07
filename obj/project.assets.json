@@ -31,19 +31,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\attic_s1f\\.nuget\\packages\\": {}
+    "C:\\Users\\adam0\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\attic_s1f\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\PBT\\PBT.csproj",
+      "projectUniqueName": "C:\\Users\\adam0\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\PBT\\PBT.csproj",
       "projectName": "PBT",
-      "projectPath": "C:\\Users\\attic_s1f\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\PBT\\PBT.csproj",
-      "packagesPath": "C:\\Users\\attic_s1f\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\attic_s1f\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\PBT\\obj\\",
+      "projectPath": "C:\\Users\\adam0\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\PBT\\PBT.csproj",
+      "packagesPath": "C:\\Users\\adam0\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adam0\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\PBT\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\attic_s1f\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adam0\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -80,8 +80,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -90,7 +89,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
