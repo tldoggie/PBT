@@ -54,5 +54,7 @@ Mods: {
 			HeyProjectile.DisplayName: Concentrated Ash
 			discraftprojectile.DisplayName: discraftprojectile
 		}
+
+		NPCs.FrisbeeMerchant.DisplayName: Frisbee Merchant
 	}
 }
