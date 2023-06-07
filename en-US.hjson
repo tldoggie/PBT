@@ -44,15 +44,21 @@ Mods: {
 			}
 
 			discraft: {
-				DisplayName: discraft
-				Tooltip: ""
+				DisplayName: 1993 Ultrastar Discraft Frisbee
+				Tooltip: USA Ultimate Approved
+			}
+
+			poopdisc: {
+				DisplayName: Poop Disc
+				Tooltip: A frisbe shit on my head JACKASS
 			}
 		}
 
 		Projectiles: {
-			frisbeeprojectile.DisplayName: Frisbee Projectile
+			frisbeeprojectile.DisplayName: Wooden Frisbee
 			HeyProjectile.DisplayName: Concentrated Ash
-			discraftprojectile.DisplayName: discraftprojectile
+			discraftprojectile.DisplayName: Discraft Frisbee
+			poopdiscprojectile.DisplayName: Poop Disc
 		}
 	}
 }

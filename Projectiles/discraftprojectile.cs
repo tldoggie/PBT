@@ -58,7 +58,7 @@ namespace PBT.Projectiles
 			{
 				Projectile.netUpdate = true;
 				Projectile.velocity = Projectile.DirectionTo(Main.player[Projectile.owner].Center) * 18f;
-				if (Projectile.Distance(Main.player[Projectile.owner].Center) < 6f) Projectile.Kill();
+				if (Projectile.Distance(Main.player[Projectile.owner].Center) < 8f) Projectile.Kill();
 			}
 			base.AI();
         }
