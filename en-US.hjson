@@ -60,5 +60,7 @@ Mods: {
 			discraftprojectile.DisplayName: Discraft Frisbee
 			poopdiscprojectile.DisplayName: Poop Disc
 		}
+
+		NPCs.FrisbeeMerchant.DisplayName: Frisbee Merchant
 	}
 }
