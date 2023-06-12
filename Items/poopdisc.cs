@@ -14,7 +14,7 @@ namespace PBT.Items
 
 		public override void SetDefaults()
 		{
-			Item.damage = 10;
+			Item.damage = 25;
 			Item.DamageType = DamageClass.Ranged;
 			Item.width = 1;
 			Item.height = 1;
